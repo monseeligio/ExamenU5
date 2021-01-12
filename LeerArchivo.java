@@ -28,7 +28,7 @@ public class LeerArchivo {
          //ejercicio separar la frase del txt 
         String linea;
          while((linea=br.readLine())!=null){ // este line lee cada parrafo 
-             palabras=linea.split(" ");
+             palabras=linea.split(",");
          }
            for (String texto:palabras){
              System.out.print(texto+" ");
